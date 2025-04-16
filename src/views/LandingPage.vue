@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import MainHeader from '../components/MainHeader.vue'
+import InteractionButton from '../components/InteractionButton.vue'
 </script>
 
 <template>
@@ -11,8 +12,10 @@ import MainHeader from '../components/MainHeader.vue'
         <h1>MainMaker</h1>
       </div>
       <p>Le site qui t'aideras à trouver ton main et à briller dans tes jeux préférés.</p>
-      <button>Choisis tes persos préféré</button>
-      <button>Notes tes performances</button>
+      <div class="stack-button">
+        <InteractionButton text="Choisis tes persos préféré" />
+        <InteractionButton text="Notes tes performances" />
+      </div>
     </div>
     <div class="img-container">
       <img src="/src/assets/img/logo.png" alt="Smite logo" />
@@ -32,6 +35,12 @@ main {
 }
 p {
   width: 60%;
+}
+.stack-button {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .img-container {
   display: flex;
