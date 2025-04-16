@@ -14,6 +14,9 @@ import MainHeader from '../components/MainHeader.vue'
       <button>Choisis tes persos préféré</button>
       <button>Notes tes performances</button>
     </div>
+    <div class="img-container">
+      <img src="/src/assets/img/logo.png" alt="Smite logo" />
+    </div>
   </main>
 </template>
 
@@ -27,7 +30,9 @@ main {
   align-items: center;
   gap: 5rem;
 }
-
+p {
+  width: 60%;
+}
 .img-container {
   display: flex;
   justify-content: center;
