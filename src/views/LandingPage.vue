@@ -13,8 +13,28 @@ import InteractionButton from '../components/InteractionButton.vue'
       </div>
       <p>Le site qui t'aideras à trouver ton main et à briller dans tes jeux préférés.</p>
       <div class="stack-button">
-        <InteractionButton text="Choisis tes persos préféré" />
-        <InteractionButton text="Notes tes performances" />
+        <a href="#choisir-personnages">
+          <InteractionButton
+            text="Choisis tes persos préféré"
+            btnId="perso"
+            @pointerenter="onEnter"
+            @pointerleave="onLeave"
+            @focus="onEnter"
+            @blur="onLeave"
+            class="interaction-button"
+          />
+        </a>
+        <a href="#notes-performances">
+          <InteractionButton
+            text="Notes tes performances"
+            btnId="perf"
+            @pointerenter="onEnter"
+            @pointerleave="onLeave"
+            @focus="onEnter"
+            @blur="onLeave"
+            class="interaction-button"
+          />
+        </a>
       </div>
     </div>
     <div class="img-container">
@@ -42,6 +62,7 @@ p {
   flex-direction: column;
   gap: 1rem;
 }
+
 .img-container {
   display: flex;
   justify-content: center;
