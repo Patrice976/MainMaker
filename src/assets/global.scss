@@ -134,6 +134,7 @@ html {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color: $lightbg-color;
 }
 h1 {
   color: #c17ceb;
@@ -153,13 +154,16 @@ a {
   color: inherit;
   transition: transform 0.2s ease-in-out;
 }
-a:hover {
+a:hover,
+router-link:hover {
   transform: scale(1.2);
 }
-a:not(:hover) {
+a:not(:hover),
+router-link:not(:hover) {
   transition-duration: 0.5s;
 }
-.a:hover .a:not(:hover) {
+.a:hover .a:not(:hover),
+router-link:hover router-link:not(:hover) {
   transform: scale(0.2);
   transition-duration: 0.3s;
 }

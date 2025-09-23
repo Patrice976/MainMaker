@@ -14,26 +14,10 @@ import InteractionButton from '../components/InteractionButton.vue'
       <p>Le site qui t'aideras à trouver ton main et à briller dans tes jeux préférés.</p>
       <div class="stack-button">
         <a href="#choisir-personnages">
-          <InteractionButton
-            text="Choisis tes persos préféré"
-            btnId="perso"
-            @pointerenter="onEnter"
-            @pointerleave="onLeave"
-            @focus="onEnter"
-            @blur="onLeave"
-            class="interaction-button"
-          />
+          <InteractionButton text="Choisis tes persos préféré" />
         </a>
         <a href="#notes-performances">
-          <InteractionButton
-            text="Notes tes performances"
-            btnId="perf"
-            @pointerenter="onEnter"
-            @pointerleave="onLeave"
-            @focus="onEnter"
-            @blur="onLeave"
-            class="interaction-button"
-          />
+          <InteractionButton text="Notes tes performances" />
         </a>
       </div>
     </div>
@@ -47,7 +31,6 @@ import InteractionButton from '../components/InteractionButton.vue'
 main {
   height: 100dvh;
   width: auto;
-  background-color: $lightbg-color;
   display: flex;
   justify-content: center;
   align-items: center;

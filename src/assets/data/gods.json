@@ -1,0 +1,24 @@
+{
+  "gods": [
+    {
+      "id": 1,
+      "name": "Achilles",
+      "pantheon": "Grec",
+      "pantheonImg": "/src/assets/img/PantheonIcon/Greek.webp",
+      "role": ["Solo", "Jungle"],
+      "meta": "7",
+      "title": "Héros de la guerre de Troie",
+      "godImg": "/src/assets/img/GodCard/achilles.avif"
+    },
+    {
+      "id": 2,
+      "name": "Agni",
+      "pantheon": "hindu",
+      "pantheonImg": "/src/assets/img/PantheonIcon/Hindu.webp",
+      "role": ["Mid", "Carry"],
+      "meta": "8",
+      "title": "Dieu du feu",
+      "godImg": "/src/assets/img/GodCard/Agni.webp"
+    }
+  ]
+}

@@ -1,28 +1,14 @@
 <script lang="ts" setup>
-const event = defineEmits<{
-  (e: 'mousehover', id?: string): void
-  (e: 'mouseout', id?: string): void
-}>()
-const props = defineProps({
+defineProps({
   text: {
     type: String,
     required: true,
   },
-  btnId: {
-    type: String,
-    required: false,
-  },
 })
-function onEnter(): void {
-  event('mousehover', props.btnId)
-}
-function onLeave(): void {
-  event('mouseout', props.btnId)
-}
 </script>
 
 <template>
-  <button class="interaction-button" @mouseenter="onEnter" @mouseleave="onLeave">{{ text }}</button>
+  <button class="interaction-button">{{ text }}</button>
 </template>
 
 <style scoped lang="scss">

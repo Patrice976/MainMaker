@@ -2,13 +2,13 @@
 
 <template>
   <header>
-    <img src="/src/assets/img/logo.png" alt="logo MainMaker" />
+    <router-link to="/"><img src="/src/assets/img/logo.png" alt="logo MainMaker" /></router-link>
     <nav>
       <ul>
-        <li><a href="#">Personnages</a></li>
-        <li><a href="#">Stat</a></li>
-        <li><a href="#">Autre jeux</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><router-link to="/GodsList">Personnages</router-link></li>
+        <li><router-link to="#">Stat</router-link></li>
+        <li><router-link to="#">Autre jeux</router-link></li>
+        <li><router-link to="#">Contact</router-link></li>
       </ul>
     </nav>
     <button>Connexion</button>
@@ -33,7 +33,7 @@ header {
   }
   img {
     width: auto;
-    height: 100%;
+    height: 80px;
   }
 }
 </style>
