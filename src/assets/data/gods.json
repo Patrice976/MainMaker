@@ -4,44 +4,44 @@
       "id": 1,
       "name": "Achilles",
       "pantheon": "Grec",
-      "pantheonImg": "/src/assets/img/PantheonIcon/Greek.webp",
+      "pantheonImg": "/img/PantheonIcon/Greek.webp",
       "role": ["Solo", "Jungle"],
       "meta": 7,
       "title": "Héros de la guerre de Troie",
-      "godImg": "/src/assets/img/GodCard/achilles.avif",
+      "godImg": "/img/GodCard/Achilles.avif",
       "interest": 5
     },
     {
       "id": 2,
       "name": "Agni",
       "pantheon": "hindu",
-      "pantheonImg": "/src/assets/img/PantheonIcon/Hindu.webp",
+      "pantheonImg": "/img/PantheonIcon/Hindu.webp",
       "role": ["Mid", "Carry"],
       "meta": 8,
       "title": "Dieu du feu",
-      "godImg": "/src/assets/img/GodCard/Agni.webp",
+      "godImg": "/img/GodCard/Agni.webp",
       "interest": 8
     },
     {
       "id": 3,
       "name": "Aladdin",
       "pantheon": "miles et une nuits",
-      "pantheonImg": "/src/assets/img/PantheonIcon/TalesOfArabia.webp",
+      "pantheonImg": "/img/PantheonIcon/TalesOfArabia.webp",
       "role": ["Mid", "Jungle"],
       "meta": 10,
       "title": "Le Sultan",
-      "godImg": "/src/assets/img/GodCard/Aladdin.webp",
+      "godImg": "/img/GodCard/Aladdin.webp",
       "interest": 5
     },
     {
       "id": 4,
       "name": "Amaterasu",
       "pantheon": "japonais",
-      "pantheonImg": "/src/assets/img/PantheonIcon/Japanese.webp",
+      "pantheonImg": "/img/PantheonIcon/Japanese.webp",
       "role": ["Solo", "Support", "Jungle"],
       "meta": 6,
       "title": "Déesse du soleil",
-      "godImg": "/src/assets/img/GodCard/Amaterasu.webp",
+      "godImg": "/img/GodCard/Amaterasu.webp",
       "interest": 7
     }
   ]

@@ -2,7 +2,7 @@
 
 <template>
   <header>
-    <router-link to="/"><img src="/src/assets/img/logo.png" alt="logo MainMaker" /></router-link>
+    <router-link to="/"><img src="/img/logo.png" alt="logo MainMaker" /></router-link>
     <nav>
       <ul>
         <li><router-link to="/GodsList">Personnages</router-link></li>

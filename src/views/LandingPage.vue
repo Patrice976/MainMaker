@@ -22,7 +22,7 @@ import InteractionButton from '../components/InteractionButton.vue'
       </div>
     </div>
     <div class="img-container">
-      <img src="/src/assets/img/logo.png" alt="Smite logo" />
+      <img src="/img/logo.png" alt="Smite logo" />
     </div>
   </main>
 </template>
@@ -53,7 +53,7 @@ p {
   height: 70%;
   width: 40%;
   overflow: hidden;
-  background-image: url('/src/assets/img/SmiteLandingImg.webp');
+  background-image: url('/img/SmiteLandingImg.webp');
   background-size: cover;
   background-color: black;
   background-position: center;
