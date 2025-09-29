@@ -30,7 +30,7 @@ import InteractionButton from '../components/InteractionButton.vue'
 <style scoped lang="scss">
 main {
   height: 100dvh;
-  width: auto;
+  width: 100dvw;
   display: flex;
   justify-content: center;
   align-items: center;

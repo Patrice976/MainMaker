@@ -32,7 +32,7 @@ const props = defineProps({
 .card:hover {
   cursor: pointer;
   transform: scale(1.05);
-  filter: brightness(1.5);
+  filter: brightness(2);
   transition: transform 0.2s ease-in-out;
 }
 

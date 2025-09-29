@@ -9,7 +9,13 @@
       "meta": 7,
       "title": "Héros de la guerre de Troie",
       "godImg": "/img/GodCard/Achilles.avif",
-      "interest": 5
+      "interest": 5,
+      "win": 0,
+      "loose": 0,
+      "games": 0,
+      "kills": 0,
+      "deaths": 0,
+      "assists": 0
     },
     {
       "id": 2,
@@ -20,7 +26,13 @@
       "meta": 8,
       "title": "Dieu du feu",
       "godImg": "/img/GodCard/Agni.webp",
-      "interest": 8
+      "interest": 8,
+      "win": 0,
+      "loose": 0,
+      "games": 0,
+      "kills": 0,
+      "deaths": 0,
+      "assists": 0
     },
     {
       "id": 3,
@@ -31,7 +43,13 @@
       "meta": 10,
       "title": "Le Sultan",
       "godImg": "/img/GodCard/Aladdin.webp",
-      "interest": 5
+      "interest": 5,
+      "win": 0,
+      "loose": 0,
+      "games": 0,
+      "kills": 0,
+      "deaths": 0,
+      "assists": 0
     },
     {
       "id": 4,
@@ -42,7 +60,13 @@
       "meta": 6,
       "title": "Déesse du soleil",
       "godImg": "/img/GodCard/Amaterasu.webp",
-      "interest": 7
+      "interest": 7,
+      "win": 0,
+      "loose": 0,
+      "games": 0,
+      "kills": 0,
+      "deaths": 0,
+      "assists": 0
     }
   ]
 }

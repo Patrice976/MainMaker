@@ -22,7 +22,7 @@ header {
   padding-inline: 3rem;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 6rem;
   nav {
     ul {
       display: flex;
@@ -33,7 +33,7 @@ header {
   }
   img {
     width: auto;
-    height: 80px;
+    height: 5rem;
   }
 }
 </style>
