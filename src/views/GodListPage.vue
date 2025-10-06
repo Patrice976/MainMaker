@@ -21,5 +21,7 @@ h1 {
 .gods_template {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 </style>

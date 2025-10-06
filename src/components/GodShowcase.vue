@@ -20,7 +20,7 @@ const props = defineProps({
 
 <style scoped lang="scss">
 .card {
-  margin: 5rem;
+  margin: 3rem;
   display: flex;
   height: 300px;
   width: 200px;
