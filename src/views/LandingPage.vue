@@ -14,10 +14,10 @@ import InteractionButton from '../components/InteractionButton.vue'
       <p>Le site qui t'aideras à trouver ton main et à briller dans tes jeux préférés.</p>
       <div class="stack-button">
         <a href="#choisir-personnages">
-          <InteractionButton text="Choisis tes persos préféré" />
+          <InteractionButton text="Déterminer ses personnages préférés" />
         </a>
-        <a href="#notes-performances">
-          <InteractionButton text="Notes tes performances" />
+        <a href="PerformanceReport">
+          <InteractionButton text="Déclarer ses performances" />
         </a>
       </div>
     </div>
