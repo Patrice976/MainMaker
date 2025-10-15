@@ -8,6 +8,7 @@ import { gods } from '../assets/data/gods.json'
   <h2>j'ai joué :</h2>
   <div class="gods_template">
     <GodShowcase v-for="god in gods" :key="god.id" :god="god" />
+    <button>&gt;</button>
   </div>
 </template>
 
@@ -23,5 +24,8 @@ h2 {
 }
 .GodShowcase {
   width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 </style>

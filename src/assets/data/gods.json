@@ -169,6 +169,23 @@
       "kills": 0,
       "deaths": 0,
       "assists": 0
+    },
+    {
+      "id": 11,
+      "name": "Athéna",
+      "pantheon": "Grec",
+      "pantheonImg": "/img/PantheonIcon/Greek.webp",
+      "role": ["Support", "Jungle"],
+      "meta": 5,
+      "title": "Déesse de la sagesse",
+      "godImg": "/img/GodCard/Athena.webp",
+      "interest": 7,
+      "win": 0,
+      "loose": 0,
+      "games": 0,
+      "kills": 0,
+      "deaths": 0,
+      "assists": 0
     }
   ]
 }
